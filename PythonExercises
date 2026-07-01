@@ -1,0 +1,42 @@
+import math
+from decimal import Decimal
+
+# Exercise 1: 
+my_list = ["banana", "apple", "cherry"]
+my_tuple = (10, 20, 30)
+my_float = 15.75
+my_int = 42
+my_decimal = Decimal('10.50')
+my_dict = {"name": "Alice", "role": "Developer", "age": 25}
+
+# Exercise 2: 
+rounded_up = math.ceil(my_float)
+print(f"Exercise 2 (Rounded up): {rounded_up}")
+
+# Exercise 3: 
+sqrt_val = math.sqrt(my_float)
+print(f"Exercise 3 (Square root): {sqrt_val:.2f}")
+
+# Exercise 4: 
+first_key = list(my_dict.keys())[0]
+print(f"Exercise 4 (First dict element): {my_dict[first_key]}")
+
+# Exercise 5: 
+print(f"Exercise 5 (Second tuple element): {my_tuple[1]}")
+
+# Exercise 6: 
+my_list.append("date")
+print(f"Exercise 6 (List after append): {my_list}")
+
+# Exercise 7: 
+my_list[0] = "blueberry"
+print(f"Exercise 7 (List after replace): {my_list}")
+
+# Exercise 8: 
+my_list.sort()
+print(f"Exercise 8 (Sorted list): {my_list}")
+
+# Exercise 9: 
+my_tuple = my_tuple + (40,)
+print(f"Exercise 9 (New tuple after reassignment): {my_tuple}")
+
