@@ -37,6 +37,6 @@ my_list.sort()
 print(f"Exercise 8 (Sorted list): {my_list}")
 
 # Exercise 9: 
-my_tuple = my_tuple + (40,)
+my_tuple += (40,)
 print(f"Exercise 9 (New tuple after reassignment): {my_tuple}")
 
